@@ -1,0 +1,39 @@
+body{
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+}
+#lista_Pokemones{
+    border: 4px solid black;
+    flex-direction: column 3;
+}
+.listapokemon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.pokemon-block,
+.pokemon-block-back {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 3px 15px
+   rgba(100, 100, 100, 0.5);
+}
+
+.img-container {
+    background-image: url("./blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.name{
+    text-transform: capitalize;
+    font-family: Elephant;
+    font-size: 25px;
+}
